@@ -171,6 +171,7 @@
         <!-- System user only boot completed broadcast receiver. This should disabled after provision ready -->
         <receiver
             android:name="com.android.devicelockcontroller.receivers.CheckInBootCompletedReceiver"
+            android:enabled="false"
             android:exported="false"
             androidprv:systemUserOnly="true">
             <intent-filter>
